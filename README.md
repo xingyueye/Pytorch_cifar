@@ -1,5 +1,4 @@
 # Pytorch_cifar
-===
 Prepare for SRCX AI Contest
 ------
 cifar-10作为分类的基础数据集，已经接近探索极限，目前Gpipe, EfficientNet-b7等网络，已经获得了接近99%的验证精度\
