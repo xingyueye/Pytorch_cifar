@@ -17,7 +17,7 @@ from torch.autograd import Variable
 from model.darts.model import NetworkCIFAR as Network
 
 parser = argparse.ArgumentParser("cifar")
-parser.add_argument('--data', type=str, default='/home/sr6/liang1018.li/data', help='location of the data corpus')
+parser.add_argument('--data', type=str, default='./data', help='location of the data corpus')
 parser.add_argument('--batch_size', type=int, default=256, help='batch size')
 parser.add_argument('--learning_rate', type=float, default=0.05, help='init learning rate')
 parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
